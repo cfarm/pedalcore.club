@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Pedal Core Bike Club - Philadelphia</title>
+        <link type="text/css" rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <main class="main">
+            <h1>Pedal Core Bike Club</h1>
+            <h2>Next ride:</h2>
+        </main>
+        <div id="authorize-div" style="display: none">
+      <span>Authorize access to Google Calendar API</span>
+      <!--Button for the user to click to initiate auth sequence -->
+      <button id="authorize-button" onclick="handleAuthClick(event)">
+        Authorize
+      </button>
+    </div>
+    <pre id="output"></pre>
+
+        <!-- <script src="/static/js/calendar.js"></script> -->
+        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+        <script src="/static/js/getEvents.js"></script>
+        <script src="https://apis.google.com/js/client.js?onload=checkAuth">
+            </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "pedalcore.club",
+  "version": "1.0.0",
+  "description": "pedal core bike club in philadelphia",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cfarm/pedalcore.club.git"
+  },
+  "author": "Catherine Farman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/cfarm/pedalcore.club/issues"
+  },
+  "homepage": "https://github.com/cfarm/pedalcore.club#readme",
+  "dependencies": {
+    "googleapis": "^5.0.0"
+  }
+}

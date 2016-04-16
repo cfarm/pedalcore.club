@@ -1,0 +1,13 @@
+body {
+    font-family: Courier;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main h1,
+.main h2 {
+    text-align: center;
+}
